@@ -29,12 +29,12 @@ def scheduled_scrape(interval):
 
 def start_scheduler():
     scheduler = BackgroundScheduler()
-    scheduler.add_job(scheduled_scrape, trigger=IntervalTrigger(weeks=1), id='weekly_scrape', args=['1W'])
-    scheduler.add_job(scheduled_scrape, trigger=IntervalTrigger(days=30), id='monthly_scrape', args=['1M'])
-    scheduler.add_job(scheduled_scrape, trigger=IntervalTrigger(weeks=13), id='quarterly_scrape', args=['3M'])
-    scheduler.add_job(scheduled_scrape, trigger=IntervalTrigger(weeks=26), id='semiannual_scrape', args=['6M'])
-    scheduler.add_job(scheduled_scrape, trigger=IntervalTrigger(weeks=52), id='annual_scrape', args=['1Y'])
-    scheduler.add_job(scheduled_scrape, trigger=IntervalTrigger(weeks=52), id='annual_scrape', args=['1Y'])
+    scheduler.add_job(scheduled_scrape,replace_existing=True, trigger=IntervalTrigger(weeks=1), id='weekly_scrape', args=['1W'])
+    scheduler.add_job(scheduled_scrape,replace_existing=True, trigger=IntervalTrigger(days=30), id='monthly_scrape', args=['1M'])
+    scheduler.add_job(scheduled_scrape,replace_existing=True, trigger=IntervalTrigger(weeks=13), id='quarterly_scrape', args=['3M'])
+    scheduler.add_job(scheduled_scrape,replace_existing=True, trigger=IntervalTrigger(weeks=26), id='semiannual_scrape', args=['6M'])
+    scheduler.add_job(scheduled_scrape,replace_existing=True, trigger=IntervalTrigger(weeks=52), id='annual_scrape', args=['1Y'])
+    scheduler.add_job(scheduled_scrape,replace_existing=True, trigger=IntervalTrigger(weeks=52), id='annual_scrape', args=['1Y'])
     
     scheduler.start()
     atexit.register(lambda: scheduler.shutdown())
