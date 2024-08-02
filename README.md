@@ -117,6 +117,7 @@ The following schedules are set up for data scraping:
 - **3M**: 3 Months (90 days)
 - **6M**: 6 Months (180 days)
 - **1Y**: 1 Year (365 days)
+- **Period Range**: A period range is specified using a dash, e.g., `3M-1M`, which means data from 3 months ago to 1 month ago.(for POST request only, not for scheduling)
 
 These intervals are used both in the scheduled scraping jobs and can be used as parameters in API requests to specify the period for which data is required.
 
@@ -152,6 +153,37 @@ These intervals are used both in the scheduled scraping jobs and can be used as 
      ]
    }
    ```
+   
+
+   Request with Period Range:
+
+   **Request:**
+   ```json
+   {
+     "from": "GBP",
+     "to": "INR",
+     "period": "3M-1M"
+   }
+   ```
+
+   **Response:**
+   ```json
+   {
+     "requested_data": [
+       {
+         "date": "2023-05-01",
+         "open": 101.0,
+         "high": 102.0,
+         "low": 100.0,
+         "close": 101.5,
+         "adj_close": 101.5,
+         "volume": "1000000"
+       },
+       ...
+     ]
+   }
+   ```
+
 
 ## Running the API in Postman
 
