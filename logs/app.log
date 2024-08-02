@@ -1,0 +1,940 @@
+2024-08-02 10:28:06,166 - DEBUG - Looking up time zone info from registry
+2024-08-02 10:28:06,171 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:28:06,171 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:28:06,172 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:28:06,172 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:28:06,172 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:28:06,172 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:28:06,174 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:28:06,174 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:28:06,175 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:28:06,175 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:28:06,175 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:28:06,175 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:28:06,175 - INFO - Scheduler started
+2024-08-02 10:28:06,176 - DEBUG - Looking for jobs to run
+2024-08-02 10:28:06,176 - DEBUG - Next wakeup is due at 2024-08-02 10:31:06.172026+05:30 (in 179.995517 seconds)
+2024-08-02 10:28:06,228 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-02 10:28:06,228 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-02 10:28:06,235 - INFO -  * Restarting with stat
+2024-08-02 10:28:07,559 - DEBUG - Looking up time zone info from registry
+2024-08-02 10:28:07,563 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:28:07,563 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:28:07,563 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:28:07,563 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:28:07,563 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:28:07,564 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:28:07,565 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:28:07,565 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:28:07,565 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:28:07,565 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:28:07,565 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:28:07,565 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:28:07,565 - INFO - Scheduler started
+2024-08-02 10:28:07,567 - DEBUG - Looking for jobs to run
+2024-08-02 10:28:07,567 - DEBUG - Next wakeup is due at 2024-08-02 10:31:07.564647+05:30 (in 179.996688 seconds)
+2024-08-02 10:28:07,577 - WARNING -  * Debugger is active!
+2024-08-02 10:28:07,592 - INFO -  * Debugger PIN: 888-832-923
+2024-08-02 10:29:11,289 - INFO - Checking date range coverage for GBP_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:29:11,308 - ERROR - Error checking date range coverage: no such table: GBP_INR
+2024-08-02 10:29:11,315 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe
+2024-08-02 10:29:11,608 - DEBUG - Started executable: `C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe` in a child process with pid: 45080 using 0 to output -3
+2024-08-02 10:29:12,133 - DEBUG - POST http://localhost:56864/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--ignore-certificate-errors', '--ignore-ssl-errors']}}}}
+2024-08-02 10:29:12,139 - DEBUG - Starting new HTTP connection (1): localhost:56864
+2024-08-02 10:29:14,857 - DEBUG - http://localhost:56864 "POST /session HTTP/11" 200 0
+2024-08-02 10:29:14,858 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"127.0.6533.89","chrome":{"chromedriverVersion":"127.0.6533.88 (a2d0cb026721e4644e489b8ebb07038ca4e4351c-refs/branch-heads/6533@{#1846})","userDataDir":"C:\\Users\\visha\\AppData\\Local\\Temp\\scoped_dir45080_1440295970"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:56871"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"95e5bf52a23e648d5b3281911d466f5b"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:29:14,859 - DEBUG - Finished Request
+2024-08-02 10:29:14,863 - DEBUG - POST http://localhost:56864/session/95e5bf52a23e648d5b3281911d466f5b/url {'url': 'https://finance.yahoo.com/quote/GBPINR=X/history?period1=1721845800&period2=1722450600&interval=1d'}
+2024-08-02 10:29:16,135 - DEBUG - http://localhost:56864 "POST /session/95e5bf52a23e648d5b3281911d466f5b/url HTTP/11" 200 0
+2024-08-02 10:29:16,136 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:29:16,137 - DEBUG - Finished Request
+2024-08-02 10:29:21,145 - ERROR - Error scraping data: name 'By' is not defined
+2024-08-02 10:29:24,767 - INFO - 127.0.0.1 - - [02/Aug/2024 10:29:24] "[35m[1mPOST /api/forex-data HTTP/1.1[0m" 500 -
+2024-08-02 10:30:52,458 - INFO - Checking date range coverage for GBP_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:30:52,459 - ERROR - Error checking date range coverage: no such table: GBP_INR
+2024-08-02 10:30:52,460 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe
+2024-08-02 10:30:52,591 - DEBUG - Started executable: `C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe` in a child process with pid: 6436 using 0 to output -3
+2024-08-02 10:30:53,108 - DEBUG - POST http://localhost:56983/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--ignore-certificate-errors', '--ignore-ssl-errors']}}}}
+2024-08-02 10:30:53,108 - DEBUG - Starting new HTTP connection (1): localhost:56983
+2024-08-02 10:30:54,949 - DEBUG - http://localhost:56983 "POST /session HTTP/11" 200 0
+2024-08-02 10:30:54,951 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"127.0.6533.89","chrome":{"chromedriverVersion":"127.0.6533.88 (a2d0cb026721e4644e489b8ebb07038ca4e4351c-refs/branch-heads/6533@{#1846})","userDataDir":"C:\\Users\\visha\\AppData\\Local\\Temp\\scoped_dir6436_481357387"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:56987"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"a1627ded9a0f8d262349da1de89a71f5"}} | headers=HTTPHeaderDict({'Content-Length': '880', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:30:54,952 - DEBUG - Finished Request
+2024-08-02 10:30:54,953 - DEBUG - POST http://localhost:56983/session/a1627ded9a0f8d262349da1de89a71f5/url {'url': 'https://finance.yahoo.com/quote/GBPINR=X/history?period1=1721845800&period2=1722450600&interval=1d'}
+2024-08-02 10:31:06,249 - DEBUG - Looking for jobs to run
+2024-08-02 10:31:06,344 - INFO - Running job "scheduled_scrape (trigger: interval[0:03:00], next run at: 2024-08-02 10:31:06 IST)" (scheduled at 2024-08-02 10:31:06.172026+05:30)
+2024-08-02 10:31:06,350 - INFO - Scheduled scraping job started for interval: 1W.
+2024-08-02 10:31:06,358 - INFO - Checking date range coverage for GBP_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:31:06,369 - DEBUG - Next wakeup is due at 2024-08-02 10:34:06.172026+05:30 (in 179.804762 seconds)
+2024-08-02 10:31:06,376 - ERROR - Error checking date range coverage: no such table: GBP_INR
+2024-08-02 10:31:06,376 - INFO - Scraping data for GBP_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:31:06,425 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe
+2024-08-02 10:31:07,222 - DEBUG - Started executable: `C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe` in a child process with pid: 35936 using 0 to output -3
+2024-08-02 10:31:07,600 - DEBUG - Looking for jobs to run
+2024-08-02 10:31:07,627 - DEBUG - Next wakeup is due at 2024-08-02 10:34:07.564647+05:30 (in 179.936887 seconds)
+2024-08-02 10:31:07,628 - INFO - Running job "scheduled_scrape (trigger: interval[0:03:00], next run at: 2024-08-02 10:34:07 IST)" (scheduled at 2024-08-02 10:31:07.564647+05:30)
+2024-08-02 10:31:07,630 - INFO - Scheduled scraping job started for interval: 1W.
+2024-08-02 10:31:07,630 - INFO - Checking date range coverage for GBP_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:31:07,632 - ERROR - Error checking date range coverage: no such table: GBP_INR
+2024-08-02 10:31:07,632 - INFO - Scraping data for GBP_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:31:07,633 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe
+2024-08-02 10:31:07,808 - DEBUG - POST http://localhost:57180/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--ignore-certificate-errors', '--ignore-ssl-errors']}}}}
+2024-08-02 10:31:07,897 - DEBUG - Starting new HTTP connection (1): localhost:57180
+2024-08-02 10:31:08,032 - DEBUG - Started executable: `C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe` in a child process with pid: 38444 using 0 to output -3
+2024-08-02 10:31:08,579 - DEBUG - POST http://localhost:57219/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--ignore-certificate-errors', '--ignore-ssl-errors']}}}}
+2024-08-02 10:31:08,580 - DEBUG - Starting new HTTP connection (1): localhost:57219
+2024-08-02 10:31:11,206 - DEBUG - http://localhost:57180 "POST /session HTTP/11" 200 0
+2024-08-02 10:31:11,208 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"127.0.6533.89","chrome":{"chromedriverVersion":"127.0.6533.88 (a2d0cb026721e4644e489b8ebb07038ca4e4351c-refs/branch-heads/6533@{#1846})","userDataDir":"C:\\Users\\visha\\AppData\\Local\\Temp\\scoped_dir35936_873008852"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:57226"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"9bafa681e967d89800fe6a9bdbf8d642"}} | headers=HTTPHeaderDict({'Content-Length': '881', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:31:11,216 - DEBUG - Finished Request
+2024-08-02 10:31:11,224 - DEBUG - POST http://localhost:57180/session/9bafa681e967d89800fe6a9bdbf8d642/url {'url': 'https://finance.yahoo.com/quote/GBPINR=X/history?period1=1721845800&period2=1722450600&interval=1d'}
+2024-08-02 10:31:14,873 - DEBUG - http://localhost:57219 "POST /session HTTP/11" 200 0
+2024-08-02 10:31:14,873 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"127.0.6533.89","chrome":{"chromedriverVersion":"127.0.6533.88 (a2d0cb026721e4644e489b8ebb07038ca4e4351c-refs/branch-heads/6533@{#1846})","userDataDir":"C:\\Users\\visha\\AppData\\Local\\Temp\\scoped_dir38444_988491775"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:57238"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"e36bb09f6b3ddc887ef9655653889ce4"}} | headers=HTTPHeaderDict({'Content-Length': '881', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:31:14,874 - DEBUG - Finished Request
+2024-08-02 10:31:14,874 - DEBUG - POST http://localhost:57219/session/e36bb09f6b3ddc887ef9655653889ce4/url {'url': 'https://finance.yahoo.com/quote/GBPINR=X/history?period1=1721845800&period2=1722450600&interval=1d'}
+2024-08-02 10:31:43,117 - DEBUG - http://localhost:56983 "POST /session/a1627ded9a0f8d262349da1de89a71f5/url HTTP/11" 200 0
+2024-08-02 10:31:43,118 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:31:43,118 - DEBUG - Finished Request
+2024-08-02 10:31:48,119 - ERROR - Error scraping data: name 'By' is not defined
+2024-08-02 10:31:52,963 - INFO - 127.0.0.1 - - [02/Aug/2024 10:31:52] "[35m[1mPOST /api/forex-data HTTP/1.1[0m" 500 -
+2024-08-02 10:32:00,145 - DEBUG - http://localhost:57219 "POST /session/e36bb09f6b3ddc887ef9655653889ce4/url HTTP/11" 200 0
+2024-08-02 10:32:00,146 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:32:00,148 - DEBUG - Finished Request
+2024-08-02 10:32:02,433 - DEBUG - http://localhost:57180 "POST /session/9bafa681e967d89800fe6a9bdbf8d642/url HTTP/11" 200 0
+2024-08-02 10:32:02,433 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:32:02,434 - DEBUG - Finished Request
+2024-08-02 10:32:05,149 - ERROR - Error scraping data: name 'By' is not defined
+2024-08-02 10:32:07,168 - WARNING - Failed to scrape data for GBP_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:32:07,168 - INFO - Checking date range coverage for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:32:07,169 - ERROR - Error checking date range coverage: no such table: AED_INR
+2024-08-02 10:32:07,169 - INFO - Scraping data for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:32:07,170 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe
+2024-08-02 10:32:07,284 - DEBUG - Started executable: `C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe` in a child process with pid: 43268 using 0 to output -3
+2024-08-02 10:32:07,438 - ERROR - Error scraping data: name 'By' is not defined
+2024-08-02 10:32:07,808 - DEBUG - POST http://localhost:57881/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--ignore-certificate-errors', '--ignore-ssl-errors']}}}}
+2024-08-02 10:32:07,809 - DEBUG - Starting new HTTP connection (1): localhost:57881
+2024-08-02 10:32:09,112 - DEBUG - http://localhost:57881 "POST /session HTTP/11" 200 0
+2024-08-02 10:32:09,112 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"127.0.6533.89","chrome":{"chromedriverVersion":"127.0.6533.88 (a2d0cb026721e4644e489b8ebb07038ca4e4351c-refs/branch-heads/6533@{#1846})","userDataDir":"C:\\Users\\visha\\AppData\\Local\\Temp\\scoped_dir43268_835083479"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:57889"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"431558fce7becb5393f36154a4a5733b"}} | headers=HTTPHeaderDict({'Content-Length': '881', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:32:09,112 - DEBUG - Finished Request
+2024-08-02 10:32:09,113 - DEBUG - POST http://localhost:57881/session/431558fce7becb5393f36154a4a5733b/url {'url': 'https://finance.yahoo.com/quote/AEDINR=X/history?period1=1721845800&period2=1722450600&interval=1d'}
+2024-08-02 10:32:09,685 - WARNING - Failed to scrape data for GBP_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:32:09,685 - INFO - Checking date range coverage for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:32:09,686 - ERROR - Error checking date range coverage: no such table: AED_INR
+2024-08-02 10:32:09,686 - INFO - Scraping data for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:32:09,688 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe
+2024-08-02 10:32:09,803 - DEBUG - Started executable: `C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe` in a child process with pid: 42868 using 0 to output -3
+2024-08-02 10:32:10,315 - DEBUG - POST http://localhost:57901/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--ignore-certificate-errors', '--ignore-ssl-errors']}}}}
+2024-08-02 10:32:10,317 - DEBUG - Starting new HTTP connection (1): localhost:57901
+2024-08-02 10:32:12,190 - DEBUG - http://localhost:57901 "POST /session HTTP/11" 200 0
+2024-08-02 10:32:12,190 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"127.0.6533.89","chrome":{"chromedriverVersion":"127.0.6533.88 (a2d0cb026721e4644e489b8ebb07038ca4e4351c-refs/branch-heads/6533@{#1846})","userDataDir":"C:\\Users\\visha\\AppData\\Local\\Temp\\scoped_dir42868_1386135521"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:57912"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"ce3c5cbaf94b79f7a3de201021cf79f7"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:32:12,191 - DEBUG - Finished Request
+2024-08-02 10:32:12,191 - DEBUG - POST http://localhost:57901/session/ce3c5cbaf94b79f7a3de201021cf79f7/url {'url': 'https://finance.yahoo.com/quote/AEDINR=X/history?period1=1721845800&period2=1722450600&interval=1d'}
+2024-08-02 10:32:13,192 - DEBUG - http://localhost:57901 "POST /session/ce3c5cbaf94b79f7a3de201021cf79f7/url HTTP/11" 200 0
+2024-08-02 10:32:13,193 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:32:13,193 - DEBUG - Finished Request
+2024-08-02 10:32:18,194 - ERROR - Error scraping data: name 'By' is not defined
+2024-08-02 10:32:22,496 - WARNING - Failed to scrape data for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:32:22,496 - INFO - Scheduled scraping job completed.
+2024-08-02 10:32:22,497 - INFO - Job "scheduled_scrape (trigger: interval[0:03:00], next run at: 2024-08-02 10:34:06 IST)" executed successfully
+2024-08-02 10:32:45,216 - DEBUG - http://localhost:57881 "POST /session/431558fce7becb5393f36154a4a5733b/url HTTP/11" 200 0
+2024-08-02 10:32:45,216 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:32:45,216 - DEBUG - Finished Request
+2024-08-02 10:32:50,217 - ERROR - Error scraping data: name 'By' is not defined
+2024-08-02 10:32:52,485 - WARNING - Failed to scrape data for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:32:52,486 - INFO - Scheduled scraping job completed.
+2024-08-02 10:32:52,488 - INFO - Job "scheduled_scrape (trigger: interval[0:03:00], next run at: 2024-08-02 10:34:07 IST)" executed successfully
+2024-08-02 10:33:19,077 - INFO -  * Detected change in 'C:\\Users\\visha\\Document\\vforex\\app\\scraper.py', reloading
+2024-08-02 10:33:19,088 - INFO - Scheduler has been shut down
+2024-08-02 10:33:19,090 - DEBUG - Looking for jobs to run
+2024-08-02 10:33:19,090 - DEBUG - No jobs; waiting until a job is added
+2024-08-02 10:33:19,610 - INFO -  * Restarting with stat
+2024-08-02 10:33:22,254 - DEBUG - Looking up time zone info from registry
+2024-08-02 10:33:22,261 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:22,261 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:22,261 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:22,262 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:22,262 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:22,262 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:22,264 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:22,264 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:22,264 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:22,264 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:22,265 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:22,265 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:22,265 - INFO - Scheduler started
+2024-08-02 10:33:22,267 - DEBUG - Looking for jobs to run
+2024-08-02 10:33:22,267 - DEBUG - Next wakeup is due at 2024-08-02 10:36:22.262489+05:30 (in 179.995015 seconds)
+2024-08-02 10:33:22,284 - WARNING -  * Debugger is active!
+2024-08-02 10:33:22,296 - INFO -  * Debugger PIN: 888-832-923
+2024-08-02 10:33:24,732 - INFO - Scheduler has been shut down
+2024-08-02 10:33:24,732 - DEBUG - Looking for jobs to run
+2024-08-02 10:33:24,732 - DEBUG - No jobs; waiting until a job is added
+2024-08-02 10:33:24,911 - INFO - Scheduler has been shut down
+2024-08-02 10:33:24,911 - DEBUG - Looking for jobs to run
+2024-08-02 10:33:24,911 - DEBUG - No jobs; waiting until a job is added
+2024-08-02 10:33:27,606 - DEBUG - Looking up time zone info from registry
+2024-08-02 10:33:27,609 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:27,610 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:27,610 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:27,610 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:27,610 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:27,610 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:27,611 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:27,611 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:27,611 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:27,612 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:27,612 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:27,612 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:27,612 - INFO - Scheduler started
+2024-08-02 10:33:27,613 - DEBUG - Looking for jobs to run
+2024-08-02 10:33:27,613 - DEBUG - Next wakeup is due at 2024-08-02 10:36:27.610607+05:30 (in 179.996928 seconds)
+2024-08-02 10:33:27,645 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-02 10:33:27,646 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-02 10:33:27,647 - INFO -  * Restarting with stat
+2024-08-02 10:33:29,089 - DEBUG - Looking up time zone info from registry
+2024-08-02 10:33:29,094 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:29,094 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:29,094 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:29,094 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:29,094 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:29,095 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:33:29,097 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:29,097 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:29,097 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:29,097 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:29,097 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:29,098 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:33:29,098 - INFO - Scheduler started
+2024-08-02 10:33:29,099 - DEBUG - Looking for jobs to run
+2024-08-02 10:33:29,099 - DEBUG - Next wakeup is due at 2024-08-02 10:36:29.095897+05:30 (in 179.996574 seconds)
+2024-08-02 10:33:29,109 - WARNING -  * Debugger is active!
+2024-08-02 10:33:29,121 - INFO -  * Debugger PIN: 888-832-923
+2024-08-02 10:33:34,330 - INFO - Checking date range coverage for GBP_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:33:34,333 - ERROR - Error checking date range coverage: no such table: GBP_INR
+2024-08-02 10:33:34,334 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe
+2024-08-02 10:33:34,548 - DEBUG - Started executable: `C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe` in a child process with pid: 43572 using 0 to output -3
+2024-08-02 10:33:35,089 - DEBUG - POST http://localhost:58205/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--ignore-certificate-errors', '--ignore-ssl-errors']}}}}
+2024-08-02 10:33:35,090 - DEBUG - Starting new HTTP connection (1): localhost:58205
+2024-08-02 10:33:37,366 - DEBUG - http://localhost:58205 "POST /session HTTP/11" 200 0
+2024-08-02 10:33:37,366 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"127.0.6533.89","chrome":{"chromedriverVersion":"127.0.6533.88 (a2d0cb026721e4644e489b8ebb07038ca4e4351c-refs/branch-heads/6533@{#1846})","userDataDir":"C:\\Users\\visha\\AppData\\Local\\Temp\\scoped_dir43572_2139912533"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:58210"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"077897fbdb4e5ac64ad627a35067b7bb"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:33:37,367 - DEBUG - Finished Request
+2024-08-02 10:33:37,368 - DEBUG - POST http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/url {'url': 'https://finance.yahoo.com/quote/GBPINR=X/history?period1=1721845800&period2=1722450600&interval=1d'}
+2024-08-02 10:34:15,119 - DEBUG - http://localhost:58205 "POST /session/077897fbdb4e5ac64ad627a35067b7bb/url HTTP/11" 200 0
+2024-08-02 10:34:15,120 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:15,120 - DEBUG - Finished Request
+2024-08-02 10:34:20,121 - DEBUG - POST http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element {'using': 'css selector', 'value': '.table'}
+2024-08-02 10:34:20,156 - DEBUG - http://localhost:58205 "POST /session/077897fbdb4e5ac64ad627a35067b7bb/element HTTP/11" 200 0
+2024-08-02 10:34:20,156 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.73"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,157 - DEBUG - Finished Request
+2024-08-02 10:34:20,157 - DEBUG - POST http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.73/elements {'using': 'tag name', 'value': 'tr'}
+2024-08-02 10:34:20,181 - DEBUG - http://localhost:58205 "POST /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.73/elements HTTP/11" 200 0
+2024-08-02 10:34:20,181 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.74"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.75"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.76"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.77"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.78"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.79"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.80"}]} | headers=HTTPHeaderDict({'Content-Length': '830', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,181 - DEBUG - Finished Request
+2024-08-02 10:34:20,181 - DEBUG - POST http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.74/elements {'using': 'tag name', 'value': 'th'}
+2024-08-02 10:34:20,208 - DEBUG - http://localhost:58205 "POST /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.74/elements HTTP/11" 200 0
+2024-08-02 10:34:20,209 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.81"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.82"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.83"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.84"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.85"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.86"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.87"}]} | headers=HTTPHeaderDict({'Content-Length': '830', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,209 - DEBUG - Finished Request
+2024-08-02 10:34:20,209 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.81/text {}
+2024-08-02 10:34:20,238 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.81/text HTTP/11" 200 0
+2024-08-02 10:34:20,239 - DEBUG - Remote response: status=200 | data={"value":"Date"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,239 - DEBUG - Finished Request
+2024-08-02 10:34:20,239 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.82/text {}
+2024-08-02 10:34:20,261 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.82/text HTTP/11" 200 0
+2024-08-02 10:34:20,261 - DEBUG - Remote response: status=200 | data={"value":"Open"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,261 - DEBUG - Finished Request
+2024-08-02 10:34:20,262 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.83/text {}
+2024-08-02 10:34:20,280 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.83/text HTTP/11" 200 0
+2024-08-02 10:34:20,281 - DEBUG - Remote response: status=200 | data={"value":"High"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,281 - DEBUG - Finished Request
+2024-08-02 10:34:20,281 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.84/text {}
+2024-08-02 10:34:20,301 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.84/text HTTP/11" 200 0
+2024-08-02 10:34:20,301 - DEBUG - Remote response: status=200 | data={"value":"Low"} | headers=HTTPHeaderDict({'Content-Length': '15', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,301 - DEBUG - Finished Request
+2024-08-02 10:34:20,301 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.85/text {}
+2024-08-02 10:34:20,324 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.85/text HTTP/11" 200 0
+2024-08-02 10:34:20,324 - DEBUG - Remote response: status=200 | data={"value":"Close"} | headers=HTTPHeaderDict({'Content-Length': '17', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,324 - DEBUG - Finished Request
+2024-08-02 10:34:20,325 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.86/text {}
+2024-08-02 10:34:20,345 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.86/text HTTP/11" 200 0
+2024-08-02 10:34:20,345 - DEBUG - Remote response: status=200 | data={"value":"Adj Close"} | headers=HTTPHeaderDict({'Content-Length': '21', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,345 - DEBUG - Finished Request
+2024-08-02 10:34:20,345 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.87/text {}
+2024-08-02 10:34:20,362 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.87/text HTTP/11" 200 0
+2024-08-02 10:34:20,362 - DEBUG - Remote response: status=200 | data={"value":"Volume"} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,363 - DEBUG - Finished Request
+2024-08-02 10:34:20,363 - DEBUG - POST http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.75/elements {'using': 'tag name', 'value': 'td'}
+2024-08-02 10:34:20,385 - DEBUG - http://localhost:58205 "POST /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.75/elements HTTP/11" 200 0
+2024-08-02 10:34:20,385 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.88"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.89"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.90"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.91"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.92"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.93"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.94"}]} | headers=HTTPHeaderDict({'Content-Length': '830', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,385 - DEBUG - Finished Request
+2024-08-02 10:34:20,385 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.88/text {}
+2024-08-02 10:34:20,404 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.88/text HTTP/11" 200 0
+2024-08-02 10:34:20,404 - DEBUG - Remote response: status=200 | data={"value":"Jul 31, 2024"} | headers=HTTPHeaderDict({'Content-Length': '24', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,404 - DEBUG - Finished Request
+2024-08-02 10:34:20,404 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.89/text {}
+2024-08-02 10:34:20,422 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.89/text HTTP/11" 200 0
+2024-08-02 10:34:20,422 - DEBUG - Remote response: status=200 | data={"value":"107.5131"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,422 - DEBUG - Finished Request
+2024-08-02 10:34:20,422 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.90/text {}
+2024-08-02 10:34:20,443 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.90/text HTTP/11" 200 0
+2024-08-02 10:34:20,443 - DEBUG - Remote response: status=200 | data={"value":"107.6071"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,443 - DEBUG - Finished Request
+2024-08-02 10:34:20,443 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.91/text {}
+2024-08-02 10:34:20,464 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.91/text HTTP/11" 200 0
+2024-08-02 10:34:20,464 - DEBUG - Remote response: status=200 | data={"value":"107.3640"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,464 - DEBUG - Finished Request
+2024-08-02 10:34:20,465 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.92/text {}
+2024-08-02 10:34:20,484 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.92/text HTTP/11" 200 0
+2024-08-02 10:34:20,484 - DEBUG - Remote response: status=200 | data={"value":"107.5001"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,484 - DEBUG - Finished Request
+2024-08-02 10:34:20,484 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.93/text {}
+2024-08-02 10:34:20,503 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.93/text HTTP/11" 200 0
+2024-08-02 10:34:20,504 - DEBUG - Remote response: status=200 | data={"value":"107.5001"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,504 - DEBUG - Finished Request
+2024-08-02 10:34:20,504 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.94/text {}
+2024-08-02 10:34:20,526 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.94/text HTTP/11" 200 0
+2024-08-02 10:34:20,526 - DEBUG - Remote response: status=200 | data={"value":"-"} | headers=HTTPHeaderDict({'Content-Length': '13', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,526 - DEBUG - Finished Request
+2024-08-02 10:34:20,526 - DEBUG - POST http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.76/elements {'using': 'tag name', 'value': 'td'}
+2024-08-02 10:34:20,545 - DEBUG - http://localhost:58205 "POST /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.76/elements HTTP/11" 200 0
+2024-08-02 10:34:20,545 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.95"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.96"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.97"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.98"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.99"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.100"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.101"}]} | headers=HTTPHeaderDict({'Content-Length': '832', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,545 - DEBUG - Finished Request
+2024-08-02 10:34:20,545 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.95/text {}
+2024-08-02 10:34:20,850 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.95/text HTTP/11" 200 0
+2024-08-02 10:34:20,851 - DEBUG - Remote response: status=200 | data={"value":"Jul 30, 2024"} | headers=HTTPHeaderDict({'Content-Length': '24', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,851 - DEBUG - Finished Request
+2024-08-02 10:34:20,852 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.96/text {}
+2024-08-02 10:34:20,902 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.96/text HTTP/11" 200 0
+2024-08-02 10:34:20,903 - DEBUG - Remote response: status=200 | data={"value":"107.6948"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,903 - DEBUG - Finished Request
+2024-08-02 10:34:20,904 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.97/text {}
+2024-08-02 10:34:20,933 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.97/text HTTP/11" 200 0
+2024-08-02 10:34:20,934 - DEBUG - Remote response: status=200 | data={"value":"107.7034"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,934 - DEBUG - Finished Request
+2024-08-02 10:34:20,934 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.98/text {}
+2024-08-02 10:34:20,956 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.98/text HTTP/11" 200 0
+2024-08-02 10:34:20,956 - DEBUG - Remote response: status=200 | data={"value":"107.3424"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,957 - DEBUG - Finished Request
+2024-08-02 10:34:20,957 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.99/text {}
+2024-08-02 10:34:20,982 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.99/text HTTP/11" 200 0
+2024-08-02 10:34:20,982 - DEBUG - Remote response: status=200 | data={"value":"107.6893"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:20,983 - DEBUG - Finished Request
+2024-08-02 10:34:20,983 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.100/text {}
+2024-08-02 10:34:21,006 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.100/text HTTP/11" 200 0
+2024-08-02 10:34:21,007 - DEBUG - Remote response: status=200 | data={"value":"107.6893"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,007 - DEBUG - Finished Request
+2024-08-02 10:34:21,007 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.101/text {}
+2024-08-02 10:34:21,031 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.101/text HTTP/11" 200 0
+2024-08-02 10:34:21,032 - DEBUG - Remote response: status=200 | data={"value":"-"} | headers=HTTPHeaderDict({'Content-Length': '13', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,032 - DEBUG - Finished Request
+2024-08-02 10:34:21,032 - DEBUG - POST http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.77/elements {'using': 'tag name', 'value': 'td'}
+2024-08-02 10:34:21,058 - DEBUG - http://localhost:58205 "POST /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.77/elements HTTP/11" 200 0
+2024-08-02 10:34:21,059 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.103"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.104"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.105"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.106"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.107"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.108"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.109"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,059 - DEBUG - Finished Request
+2024-08-02 10:34:21,059 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.103/text {}
+2024-08-02 10:34:21,084 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.103/text HTTP/11" 200 0
+2024-08-02 10:34:21,084 - DEBUG - Remote response: status=200 | data={"value":"Jul 29, 2024"} | headers=HTTPHeaderDict({'Content-Length': '24', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,085 - DEBUG - Finished Request
+2024-08-02 10:34:21,085 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.104/text {}
+2024-08-02 10:34:21,107 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.104/text HTTP/11" 200 0
+2024-08-02 10:34:21,108 - DEBUG - Remote response: status=200 | data={"value":"107.7301"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,108 - DEBUG - Finished Request
+2024-08-02 10:34:21,108 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.105/text {}
+2024-08-02 10:34:21,136 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.105/text HTTP/11" 200 0
+2024-08-02 10:34:21,138 - DEBUG - Remote response: status=200 | data={"value":"107.8816"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,138 - DEBUG - Finished Request
+2024-08-02 10:34:21,138 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.106/text {}
+2024-08-02 10:34:21,158 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.106/text HTTP/11" 200 0
+2024-08-02 10:34:21,158 - DEBUG - Remote response: status=200 | data={"value":"107.2341"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,158 - DEBUG - Finished Request
+2024-08-02 10:34:21,159 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.107/text {}
+2024-08-02 10:34:21,181 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.107/text HTTP/11" 200 0
+2024-08-02 10:34:21,181 - DEBUG - Remote response: status=200 | data={"value":"107.7398"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,181 - DEBUG - Finished Request
+2024-08-02 10:34:21,182 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.108/text {}
+2024-08-02 10:34:21,197 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.108/text HTTP/11" 200 0
+2024-08-02 10:34:21,197 - DEBUG - Remote response: status=200 | data={"value":"107.7398"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,198 - DEBUG - Finished Request
+2024-08-02 10:34:21,198 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.109/text {}
+2024-08-02 10:34:21,211 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.109/text HTTP/11" 200 0
+2024-08-02 10:34:21,211 - DEBUG - Remote response: status=200 | data={"value":"-"} | headers=HTTPHeaderDict({'Content-Length': '13', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,211 - DEBUG - Finished Request
+2024-08-02 10:34:21,212 - DEBUG - POST http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.78/elements {'using': 'tag name', 'value': 'td'}
+2024-08-02 10:34:21,224 - DEBUG - http://localhost:58205 "POST /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.78/elements HTTP/11" 200 0
+2024-08-02 10:34:21,224 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.110"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.111"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.112"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.113"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.55"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.114"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.115"}]} | headers=HTTPHeaderDict({'Content-Length': '836', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,224 - DEBUG - Finished Request
+2024-08-02 10:34:21,224 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.110/text {}
+2024-08-02 10:34:21,236 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.110/text HTTP/11" 200 0
+2024-08-02 10:34:21,236 - DEBUG - Remote response: status=200 | data={"value":"Jul 26, 2024"} | headers=HTTPHeaderDict({'Content-Length': '24', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,236 - DEBUG - Finished Request
+2024-08-02 10:34:21,237 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.111/text {}
+2024-08-02 10:34:21,250 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.111/text HTTP/11" 200 0
+2024-08-02 10:34:21,250 - DEBUG - Remote response: status=200 | data={"value":"107.6533"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,250 - DEBUG - Finished Request
+2024-08-02 10:34:21,250 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.112/text {}
+2024-08-02 10:34:21,264 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.112/text HTTP/11" 200 0
+2024-08-02 10:34:21,265 - DEBUG - Remote response: status=200 | data={"value":"107.7987"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,265 - DEBUG - Finished Request
+2024-08-02 10:34:21,265 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.113/text {}
+2024-08-02 10:34:21,276 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.113/text HTTP/11" 200 0
+2024-08-02 10:34:21,276 - DEBUG - Remote response: status=200 | data={"value":"107.5827"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,276 - DEBUG - Finished Request
+2024-08-02 10:34:21,277 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.55/text {}
+2024-08-02 10:34:21,288 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.55/text HTTP/11" 200 0
+2024-08-02 10:34:21,288 - DEBUG - Remote response: status=200 | data={"value":"107.6589"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,289 - DEBUG - Finished Request
+2024-08-02 10:34:21,289 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.114/text {}
+2024-08-02 10:34:21,306 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.114/text HTTP/11" 200 0
+2024-08-02 10:34:21,306 - DEBUG - Remote response: status=200 | data={"value":"107.6589"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,306 - DEBUG - Finished Request
+2024-08-02 10:34:21,306 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.115/text {}
+2024-08-02 10:34:21,325 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.115/text HTTP/11" 200 0
+2024-08-02 10:34:21,325 - DEBUG - Remote response: status=200 | data={"value":"-"} | headers=HTTPHeaderDict({'Content-Length': '13', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,325 - DEBUG - Finished Request
+2024-08-02 10:34:21,325 - DEBUG - POST http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.79/elements {'using': 'tag name', 'value': 'td'}
+2024-08-02 10:34:21,342 - DEBUG - http://localhost:58205 "POST /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.79/elements HTTP/11" 200 0
+2024-08-02 10:34:21,342 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.116"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.117"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.118"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.119"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.120"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.121"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.122"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,342 - DEBUG - Finished Request
+2024-08-02 10:34:21,342 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.116/text {}
+2024-08-02 10:34:21,367 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.116/text HTTP/11" 200 0
+2024-08-02 10:34:21,368 - DEBUG - Remote response: status=200 | data={"value":"Jul 25, 2024"} | headers=HTTPHeaderDict({'Content-Length': '24', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,368 - DEBUG - Finished Request
+2024-08-02 10:34:21,368 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.117/text {}
+2024-08-02 10:34:21,390 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.117/text HTTP/11" 200 0
+2024-08-02 10:34:21,391 - DEBUG - Remote response: status=200 | data={"value":"108.0202"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,391 - DEBUG - Finished Request
+2024-08-02 10:34:21,391 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.118/text {}
+2024-08-02 10:34:21,411 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.118/text HTTP/11" 200 0
+2024-08-02 10:34:21,411 - DEBUG - Remote response: status=200 | data={"value":"108.0660"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,411 - DEBUG - Finished Request
+2024-08-02 10:34:21,411 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.119/text {}
+2024-08-02 10:34:21,431 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.119/text HTTP/11" 200 0
+2024-08-02 10:34:21,431 - DEBUG - Remote response: status=200 | data={"value":"107.7716"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,431 - DEBUG - Finished Request
+2024-08-02 10:34:21,432 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.120/text {}
+2024-08-02 10:34:21,451 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.120/text HTTP/11" 200 0
+2024-08-02 10:34:21,451 - DEBUG - Remote response: status=200 | data={"value":"108.0333"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,451 - DEBUG - Finished Request
+2024-08-02 10:34:21,451 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.121/text {}
+2024-08-02 10:34:21,470 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.121/text HTTP/11" 200 0
+2024-08-02 10:34:21,470 - DEBUG - Remote response: status=200 | data={"value":"108.0333"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,470 - DEBUG - Finished Request
+2024-08-02 10:34:21,470 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.122/text {}
+2024-08-02 10:34:21,489 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.122/text HTTP/11" 200 0
+2024-08-02 10:34:21,489 - DEBUG - Remote response: status=200 | data={"value":"-"} | headers=HTTPHeaderDict({'Content-Length': '13', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,489 - DEBUG - Finished Request
+2024-08-02 10:34:21,489 - DEBUG - POST http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.80/elements {'using': 'tag name', 'value': 'td'}
+2024-08-02 10:34:21,509 - DEBUG - http://localhost:58205 "POST /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.80/elements HTTP/11" 200 0
+2024-08-02 10:34:21,509 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.123"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.124"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.125"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.126"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.127"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.128"},{"element-6066-11e4-a52e-4f735466cecf":"f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.129"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,509 - DEBUG - Finished Request
+2024-08-02 10:34:21,510 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.123/text {}
+2024-08-02 10:34:21,531 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.123/text HTTP/11" 200 0
+2024-08-02 10:34:21,532 - DEBUG - Remote response: status=200 | data={"value":"Jul 24, 2024"} | headers=HTTPHeaderDict({'Content-Length': '24', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,532 - DEBUG - Finished Request
+2024-08-02 10:34:21,532 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.124/text {}
+2024-08-02 10:34:21,552 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.124/text HTTP/11" 200 0
+2024-08-02 10:34:21,552 - DEBUG - Remote response: status=200 | data={"value":"108.0073"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,552 - DEBUG - Finished Request
+2024-08-02 10:34:21,552 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.125/text {}
+2024-08-02 10:34:21,574 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.125/text HTTP/11" 200 0
+2024-08-02 10:34:21,574 - DEBUG - Remote response: status=200 | data={"value":"108.2760"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,574 - DEBUG - Finished Request
+2024-08-02 10:34:21,574 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.126/text {}
+2024-08-02 10:34:21,593 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.126/text HTTP/11" 200 0
+2024-08-02 10:34:21,593 - DEBUG - Remote response: status=200 | data={"value":"107.7957"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,593 - DEBUG - Finished Request
+2024-08-02 10:34:21,593 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.127/text {}
+2024-08-02 10:34:21,610 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.127/text HTTP/11" 200 0
+2024-08-02 10:34:21,610 - DEBUG - Remote response: status=200 | data={"value":"108.0073"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,611 - DEBUG - Finished Request
+2024-08-02 10:34:21,611 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.128/text {}
+2024-08-02 10:34:21,639 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.128/text HTTP/11" 200 0
+2024-08-02 10:34:21,639 - DEBUG - Remote response: status=200 | data={"value":"108.0073"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,639 - DEBUG - Finished Request
+2024-08-02 10:34:21,641 - DEBUG - GET http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.129/text {}
+2024-08-02 10:34:21,686 - DEBUG - http://localhost:58205 "GET /session/077897fbdb4e5ac64ad627a35067b7bb/element/f.70BBC0BA6C57ED43D1751D4DEE185ED4.d.AC38451F862EDBF19C9FB8D5CB7E27B5.e.129/text HTTP/11" 200 0
+2024-08-02 10:34:21,686 - DEBUG - Remote response: status=200 | data={"value":"-"} | headers=HTTPHeaderDict({'Content-Length': '13', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,686 - DEBUG - Finished Request
+2024-08-02 10:34:21,687 - DEBUG - DELETE http://localhost:58205/session/077897fbdb4e5ac64ad627a35067b7bb {}
+2024-08-02 10:34:21,800 - DEBUG - http://localhost:58205 "DELETE /session/077897fbdb4e5ac64ad627a35067b7bb HTTP/11" 200 0
+2024-08-02 10:34:21,800 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:34:21,800 - DEBUG - Finished Request
+2024-08-02 10:34:24,072 - INFO - Data scraped successfully for GBPINR=X from 2024-07-25 to 2024-08-01.
+2024-08-02 10:34:28,196 - INFO - Table GBP_INR created or exists.
+2024-08-02 10:34:28,243 - INFO - Data stored in database successfully for GBP_INR.
+2024-08-02 10:34:28,243 - INFO - Querying database for GBP_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:34:28,244 - INFO - Data fetched successfully from GBP_INR.
+2024-08-02 10:34:28,261 - INFO - 127.0.0.1 - - [02/Aug/2024 10:34:28] "POST /api/forex-data HTTP/1.1" 200 -
+2024-08-02 10:36:27,628 - DEBUG - Looking for jobs to run
+2024-08-02 10:36:27,650 - INFO - Running job "scheduled_scrape (trigger: interval[0:03:00], next run at: 2024-08-02 10:36:27 IST)" (scheduled at 2024-08-02 10:36:27.610607+05:30)
+2024-08-02 10:36:27,653 - INFO - Scheduled scraping job started for interval: 1W.
+2024-08-02 10:36:27,654 - DEBUG - Next wakeup is due at 2024-08-02 10:39:27.610607+05:30 (in 179.956340 seconds)
+2024-08-02 10:36:27,655 - INFO - Checking date range coverage for GBP_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:36:27,665 - INFO - Checking date range coverage for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:36:27,666 - ERROR - Error checking date range coverage: no such table: AED_INR
+2024-08-02 10:36:27,667 - INFO - Scraping data for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:36:27,675 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe
+2024-08-02 10:36:27,960 - DEBUG - Started executable: `C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe` in a child process with pid: 17948 using 0 to output -3
+2024-08-02 10:36:28,480 - DEBUG - POST http://localhost:58936/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--ignore-certificate-errors', '--ignore-ssl-errors']}}}}
+2024-08-02 10:36:28,483 - DEBUG - Starting new HTTP connection (1): localhost:58936
+2024-08-02 10:36:29,128 - DEBUG - Looking for jobs to run
+2024-08-02 10:36:29,145 - INFO - Running job "scheduled_scrape (trigger: interval[0:03:00], next run at: 2024-08-02 10:36:29 IST)" (scheduled at 2024-08-02 10:36:29.095897+05:30)
+2024-08-02 10:36:29,146 - DEBUG - Next wakeup is due at 2024-08-02 10:39:29.095897+05:30 (in 179.949876 seconds)
+2024-08-02 10:36:29,147 - INFO - Scheduled scraping job started for interval: 1W.
+2024-08-02 10:36:29,148 - INFO - Checking date range coverage for GBP_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:36:29,149 - INFO - Checking date range coverage for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:36:29,152 - ERROR - Error checking date range coverage: no such table: AED_INR
+2024-08-02 10:36:29,153 - INFO - Scraping data for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:36:29,168 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe
+2024-08-02 10:36:29,385 - DEBUG - Started executable: `C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe` in a child process with pid: 46256 using 0 to output -3
+2024-08-02 10:36:29,915 - DEBUG - POST http://localhost:58939/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--ignore-certificate-errors', '--ignore-ssl-errors']}}}}
+2024-08-02 10:36:29,916 - DEBUG - Starting new HTTP connection (1): localhost:58939
+2024-08-02 10:36:31,492 - DEBUG - http://localhost:58936 "POST /session HTTP/11" 200 0
+2024-08-02 10:36:31,493 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"127.0.6533.89","chrome":{"chromedriverVersion":"127.0.6533.88 (a2d0cb026721e4644e489b8ebb07038ca4e4351c-refs/branch-heads/6533@{#1846})","userDataDir":"C:\\Users\\visha\\AppData\\Local\\Temp\\scoped_dir17948_1514827145"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:58941"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"9cae433b6b9a90197d21175722f46e05"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:36:31,497 - DEBUG - Finished Request
+2024-08-02 10:36:31,498 - DEBUG - POST http://localhost:58936/session/9cae433b6b9a90197d21175722f46e05/url {'url': 'https://finance.yahoo.com/quote/AEDINR=X/history?period1=1721845800&period2=1722450600&interval=1d'}
+2024-08-02 10:36:33,348 - DEBUG - http://localhost:58936 "POST /session/9cae433b6b9a90197d21175722f46e05/url HTTP/11" 200 0
+2024-08-02 10:36:33,348 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:36:33,349 - DEBUG - Finished Request
+2024-08-02 10:36:34,610 - DEBUG - http://localhost:58939 "POST /session HTTP/11" 200 0
+2024-08-02 10:36:34,611 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"127.0.6533.89","chrome":{"chromedriverVersion":"127.0.6533.88 (a2d0cb026721e4644e489b8ebb07038ca4e4351c-refs/branch-heads/6533@{#1846})","userDataDir":"C:\\Users\\visha\\AppData\\Local\\Temp\\scoped_dir46256_1152949426"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:58958"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"2137baee4fd6d91101d806bb3d6130ea"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:36:34,618 - DEBUG - Finished Request
+2024-08-02 10:36:34,621 - DEBUG - POST http://localhost:58939/session/2137baee4fd6d91101d806bb3d6130ea/url {'url': 'https://finance.yahoo.com/quote/AEDINR=X/history?period1=1721845800&period2=1722450600&interval=1d'}
+2024-08-02 10:36:38,352 - DEBUG - POST http://localhost:58936/session/9cae433b6b9a90197d21175722f46e05/element {'using': 'css selector', 'value': '.table'}
+2024-08-02 10:36:45,777 - DEBUG - http://localhost:58939 "POST /session/2137baee4fd6d91101d806bb3d6130ea/url HTTP/11" 200 0
+2024-08-02 10:36:45,777 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:36:45,779 - DEBUG - Finished Request
+2024-08-02 10:36:47,609 - DEBUG - http://localhost:58936 "POST /session/9cae433b6b9a90197d21175722f46e05/element HTTP/11" 500 0
+2024-08-02 10:36:47,609 - DEBUG - Remote response: status=500 | data={"value":{"error":"unknown error","message":"unknown error: cannot determine loading status\nfrom unknown error: cannot determine loading status\nfrom disconnected: unable to send message to renderer\n  (Session info: chrome=127.0.6533.89)","stacktrace":"\tGetHandleVerifier [0x00007FF706939632+30946]\n\t(No symbol) [0x00007FF7068EE3C9]\n\t(No symbol) [0x00007FF7067E6FDA]\n\t(No symbol) [0x00007FF7067CF00C]\n\t(No symbol) [0x00007FF7067CEF7C]\n\t(No symbol) [0x00007FF7067CD9F2]\n\t(No symbol) [0x00007FF7067CE46F]\n\t(No symbol) [0x00007FF7067FA3A4]\n\t(No symbol) [0x00007FF7067EF7D0]\n\t(No symbol) [0x00007FF7067EF682]\n\t(No symbol) [0x00007FF7067DDED5]\n\t(No symbol) [0x00007FF7067DD87C]\n\t(No symbol) [0x00007FF7067F50FF]\n\t(No symbol) [0x00007FF7067FAB7A]\n\t(No symbol) [0x00007FF7067CEBBA]\n\t(No symbol) [0x00007FF7067F4C71]\n\t(No symbol) [0x00007FF70687AF1C]\n\t(No symbol) [0x00007FF70685C813]\n\t(No symbol) [0x00007FF70682A6E5]\n\t(No symbol) [0x00007FF70682B021]\n\tGetHandleVerifier [0x00007FF706A6F83D+1301229]\n\tGetHandleVerifier [0x00007FF706A7BDB7+1351783]\n\tGetHandleVerifier [0x00007FF706A72A03+1313971]\n\tGetHandleVerifier [0x00007FF70696DD06+245686]\n\t(No symbol) [0x00007FF7068F758F]\n\t(No symbol) [0x00007FF7068F3804]\n\t(No symbol) [0x00007FF7068F3992]\n\t(No symbol) [0x00007FF7068EA3EF]\n\tBaseThreadInitThunk [0x00007FFD35A2257D+29]\n\tRtlUserThreadStart [0x00007FFD3758AF28+40]\n"}} | headers=HTTPHeaderDict({'Content-Length': '1426', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:36:47,612 - DEBUG - Finished Request
+2024-08-02 10:36:47,625 - ERROR - Error scraping data: Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: unable to send message to renderer
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF706939632+30946]
+	(No symbol) [0x00007FF7068EE3C9]
+	(No symbol) [0x00007FF7067E6FDA]
+	(No symbol) [0x00007FF7067CF00C]
+	(No symbol) [0x00007FF7067CEF7C]
+	(No symbol) [0x00007FF7067CD9F2]
+	(No symbol) [0x00007FF7067CE46F]
+	(No symbol) [0x00007FF7067FA3A4]
+	(No symbol) [0x00007FF7067EF7D0]
+	(No symbol) [0x00007FF7067EF682]
+	(No symbol) [0x00007FF7067DDED5]
+	(No symbol) [0x00007FF7067DD87C]
+	(No symbol) [0x00007FF7067F50FF]
+	(No symbol) [0x00007FF7067FAB7A]
+	(No symbol) [0x00007FF7067CEBBA]
+	(No symbol) [0x00007FF7067F4C71]
+	(No symbol) [0x00007FF70687AF1C]
+	(No symbol) [0x00007FF70685C813]
+	(No symbol) [0x00007FF70682A6E5]
+	(No symbol) [0x00007FF70682B021]
+	GetHandleVerifier [0x00007FF706A6F83D+1301229]
+	GetHandleVerifier [0x00007FF706A7BDB7+1351783]
+	GetHandleVerifier [0x00007FF706A72A03+1313971]
+	GetHandleVerifier [0x00007FF70696DD06+245686]
+	(No symbol) [0x00007FF7068F758F]
+	(No symbol) [0x00007FF7068F3804]
+	(No symbol) [0x00007FF7068F3992]
+	(No symbol) [0x00007FF7068EA3EF]
+	BaseThreadInitThunk [0x00007FFD35A2257D+29]
+	RtlUserThreadStart [0x00007FFD3758AF28+40]
+
+2024-08-02 10:36:50,449 - WARNING - Failed to scrape data for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:36:50,450 - INFO - Scheduled scraping job completed.
+2024-08-02 10:36:50,451 - INFO - Job "scheduled_scrape (trigger: interval[0:03:00], next run at: 2024-08-02 10:39:27 IST)" executed successfully
+2024-08-02 10:36:50,785 - DEBUG - POST http://localhost:58939/session/2137baee4fd6d91101d806bb3d6130ea/element {'using': 'css selector', 'value': '.table'}
+2024-08-02 10:36:50,807 - DEBUG - http://localhost:58939 "POST /session/2137baee4fd6d91101d806bb3d6130ea/element HTTP/11" 500 0
+2024-08-02 10:36:50,809 - DEBUG - Remote response: status=500 | data={"value":{"error":"disconnected","message":"disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=127.0.6533.89)","stacktrace":"\tGetHandleVerifier [0x00007FF706939632+30946]\n\t(No symbol) [0x00007FF7068EE3C9]\n\t(No symbol) [0x00007FF7067E6FDA]\n\t(No symbol) [0x00007FF7067CEA4C]\n\t(No symbol) [0x00007FF7067CE910]\n\t(No symbol) [0x00007FF7067E98C1]\n\t(No symbol) [0x00007FF70687A799]\n\t(No symbol) [0x00007FF70685C813]\n\t(No symbol) [0x00007FF70682A6E5]\n\t(No symbol) [0x00007FF70682B021]\n\tGetHandleVerifier [0x00007FF706A6F83D+1301229]\n\tGetHandleVerifier [0x00007FF706A7BDB7+1351783]\n\tGetHandleVerifier [0x00007FF706A72A03+1313971]\n\tGetHandleVerifier [0x00007FF70696DD06+245686]\n\t(No symbol) [0x00007FF7068F758F]\n\t(No symbol) [0x00007FF7068F3804]\n\t(No symbol) [0x00007FF7068F3992]\n\t(No symbol) [0x00007FF7068EA3EF]\n\tBaseThreadInitThunk [0x00007FFD35A2257D+29]\n\tRtlUserThreadStart [0x00007FFD3758AF28+40]\n"}} | headers=HTTPHeaderDict({'Content-Length': '1033', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:36:50,810 - DEBUG - Finished Request
+2024-08-02 10:36:50,827 - ERROR - Error scraping data: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF706939632+30946]
+	(No symbol) [0x00007FF7068EE3C9]
+	(No symbol) [0x00007FF7067E6FDA]
+	(No symbol) [0x00007FF7067CEA4C]
+	(No symbol) [0x00007FF7067CE910]
+	(No symbol) [0x00007FF7067E98C1]
+	(No symbol) [0x00007FF70687A799]
+	(No symbol) [0x00007FF70685C813]
+	(No symbol) [0x00007FF70682A6E5]
+	(No symbol) [0x00007FF70682B021]
+	GetHandleVerifier [0x00007FF706A6F83D+1301229]
+	GetHandleVerifier [0x00007FF706A7BDB7+1351783]
+	GetHandleVerifier [0x00007FF706A72A03+1313971]
+	GetHandleVerifier [0x00007FF70696DD06+245686]
+	(No symbol) [0x00007FF7068F758F]
+	(No symbol) [0x00007FF7068F3804]
+	(No symbol) [0x00007FF7068F3992]
+	(No symbol) [0x00007FF7068EA3EF]
+	BaseThreadInitThunk [0x00007FFD35A2257D+29]
+	RtlUserThreadStart [0x00007FFD3758AF28+40]
+
+2024-08-02 10:36:52,985 - WARNING - Failed to scrape data for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:36:52,985 - INFO - Scheduled scraping job completed.
+2024-08-02 10:36:52,986 - INFO - Job "scheduled_scrape (trigger: interval[0:03:00], next run at: 2024-08-02 10:39:29 IST)" executed successfully
+2024-08-02 10:38:07,585 - INFO - Scheduler has been shut down
+2024-08-02 10:38:07,596 - DEBUG - Looking for jobs to run
+2024-08-02 10:38:07,596 - DEBUG - No jobs; waiting until a job is added
+2024-08-02 10:38:08,982 - INFO - Scheduler has been shut down
+2024-08-02 10:38:08,983 - DEBUG - Looking for jobs to run
+2024-08-02 10:38:08,983 - DEBUG - No jobs; waiting until a job is added
+2024-08-02 10:38:12,708 - DEBUG - Looking up time zone info from registry
+2024-08-02 10:38:12,715 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:38:12,715 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:38:12,715 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:38:12,716 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:38:12,716 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:38:12,716 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:38:12,719 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:38:12,719 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:38:12,719 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:38:12,719 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:38:12,719 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:38:12,719 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:38:12,719 - INFO - Scheduler started
+2024-08-02 10:38:12,720 - DEBUG - Looking for jobs to run
+2024-08-02 10:38:12,721 - DEBUG - Next wakeup is due at 2024-08-02 10:41:12.716960+05:30 (in 179.995248 seconds)
+2024-08-02 10:38:12,765 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-02 10:38:12,766 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-02 10:38:12,769 - INFO -  * Restarting with stat
+2024-08-02 10:38:14,330 - DEBUG - Looking up time zone info from registry
+2024-08-02 10:38:14,339 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:38:14,339 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:38:14,340 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:38:14,341 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:38:14,341 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:38:14,342 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-02 10:38:14,344 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:38:14,344 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:38:14,344 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:38:14,344 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:38:14,345 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:38:14,345 - INFO - Added job "scheduled_scrape" to job store "default"
+2024-08-02 10:38:14,345 - INFO - Scheduler started
+2024-08-02 10:38:14,348 - DEBUG - Looking for jobs to run
+2024-08-02 10:38:14,349 - DEBUG - Next wakeup is due at 2024-08-02 10:41:14.341508+05:30 (in 179.991986 seconds)
+2024-08-02 10:38:14,369 - WARNING -  * Debugger is active!
+2024-08-02 10:38:14,401 - INFO -  * Debugger PIN: 888-832-923
+2024-08-02 10:41:12,735 - DEBUG - Looking for jobs to run
+2024-08-02 10:41:12,744 - INFO - Running job "scheduled_scrape (trigger: interval[0:03:00], next run at: 2024-08-02 10:41:12 IST)" (scheduled at 2024-08-02 10:41:12.716960+05:30)
+2024-08-02 10:41:12,745 - DEBUG - Next wakeup is due at 2024-08-02 10:44:12.716960+05:30 (in 179.971432 seconds)
+2024-08-02 10:41:12,745 - INFO - Scheduled scraping job started for interval: 1W.
+2024-08-02 10:41:12,746 - INFO - Checking date range coverage for GBP_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:41:12,763 - INFO - Checking date range coverage for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:41:12,764 - ERROR - Error checking date range coverage: no such table: AED_INR
+2024-08-02 10:41:12,765 - INFO - Scraping data for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:41:12,777 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe
+2024-08-02 10:41:13,135 - DEBUG - Started executable: `C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe` in a child process with pid: 14424 using 0 to output -3
+2024-08-02 10:41:13,656 - DEBUG - POST http://localhost:59336/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--ignore-certificate-errors', '--ignore-ssl-errors']}}}}
+2024-08-02 10:41:13,662 - DEBUG - Starting new HTTP connection (1): localhost:59336
+2024-08-02 10:41:14,349 - DEBUG - Looking for jobs to run
+2024-08-02 10:41:14,364 - INFO - Running job "scheduled_scrape (trigger: interval[0:03:00], next run at: 2024-08-02 10:41:14 IST)" (scheduled at 2024-08-02 10:41:14.341508+05:30)
+2024-08-02 10:41:14,366 - INFO - Scheduled scraping job started for interval: 1W.
+2024-08-02 10:41:14,366 - INFO - Checking date range coverage for GBP_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:41:14,368 - DEBUG - Next wakeup is due at 2024-08-02 10:44:14.341508+05:30 (in 179.972972 seconds)
+2024-08-02 10:41:14,373 - INFO - Checking date range coverage for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:41:14,374 - ERROR - Error checking date range coverage: no such table: AED_INR
+2024-08-02 10:41:14,375 - INFO - Scraping data for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:41:14,387 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe
+2024-08-02 10:41:14,749 - DEBUG - Started executable: `C:/Users/visha/Downloads/chromedriver-win64/chromedriver.exe` in a child process with pid: 46620 using 0 to output -3
+2024-08-02 10:41:15,296 - DEBUG - POST http://localhost:59343/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': ['--ignore-certificate-errors', '--ignore-ssl-errors']}}}}
+2024-08-02 10:41:15,314 - DEBUG - Starting new HTTP connection (1): localhost:59343
+2024-08-02 10:41:16,482 - DEBUG - http://localhost:59336 "POST /session HTTP/11" 200 0
+2024-08-02 10:41:16,483 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"127.0.6533.89","chrome":{"chromedriverVersion":"127.0.6533.88 (a2d0cb026721e4644e489b8ebb07038ca4e4351c-refs/branch-heads/6533@{#1846})","userDataDir":"C:\\Users\\visha\\AppData\\Local\\Temp\\scoped_dir14424_949063110"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:59345"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"4355e5140acbcb4cef92a63c7185267d"}} | headers=HTTPHeaderDict({'Content-Length': '881', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:16,485 - DEBUG - Finished Request
+2024-08-02 10:41:16,486 - DEBUG - POST http://localhost:59336/session/4355e5140acbcb4cef92a63c7185267d/url {'url': 'https://finance.yahoo.com/quote/AEDINR=X/history?period1=1721845800&period2=1722450600&interval=1d'}
+2024-08-02 10:41:19,706 - DEBUG - http://localhost:59343 "POST /session HTTP/11" 200 0
+2024-08-02 10:41:19,707 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"127.0.6533.89","chrome":{"chromedriverVersion":"127.0.6533.88 (a2d0cb026721e4644e489b8ebb07038ca4e4351c-refs/branch-heads/6533@{#1846})","userDataDir":"C:\\Users\\visha\\AppData\\Local\\Temp\\scoped_dir46620_417061950"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:59356"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"062972a1215e906917ba14d454b5a028"}} | headers=HTTPHeaderDict({'Content-Length': '881', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:19,710 - DEBUG - Finished Request
+2024-08-02 10:41:19,711 - DEBUG - POST http://localhost:59343/session/062972a1215e906917ba14d454b5a028/url {'url': 'https://finance.yahoo.com/quote/AEDINR=X/history?period1=1721845800&period2=1722450600&interval=1d'}
+2024-08-02 10:41:39,973 - DEBUG - http://localhost:59343 "POST /session/062972a1215e906917ba14d454b5a028/url HTTP/11" 200 0
+2024-08-02 10:41:39,973 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:39,974 - DEBUG - Finished Request
+2024-08-02 10:41:44,980 - DEBUG - POST http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element {'using': 'css selector', 'value': '.table'}
+2024-08-02 10:41:47,193 - DEBUG - http://localhost:59343 "POST /session/062972a1215e906917ba14d454b5a028/element HTTP/11" 200 0
+2024-08-02 10:41:47,193 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.66"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,194 - DEBUG - Finished Request
+2024-08-02 10:41:47,199 - DEBUG - POST http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.66/elements {'using': 'tag name', 'value': 'tr'}
+2024-08-02 10:41:47,261 - DEBUG - http://localhost:59343 "POST /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.66/elements HTTP/11" 200 0
+2024-08-02 10:41:47,262 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.67"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.68"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.69"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.70"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.71"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.72"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.73"}]} | headers=HTTPHeaderDict({'Content-Length': '830', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,263 - DEBUG - Finished Request
+2024-08-02 10:41:47,263 - DEBUG - POST http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.67/elements {'using': 'tag name', 'value': 'th'}
+2024-08-02 10:41:47,312 - DEBUG - http://localhost:59343 "POST /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.67/elements HTTP/11" 200 0
+2024-08-02 10:41:47,313 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.74"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.75"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.76"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.77"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.78"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.79"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.80"}]} | headers=HTTPHeaderDict({'Content-Length': '830', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,313 - DEBUG - Finished Request
+2024-08-02 10:41:47,315 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.74/text {}
+2024-08-02 10:41:47,365 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.74/text HTTP/11" 200 0
+2024-08-02 10:41:47,365 - DEBUG - Remote response: status=200 | data={"value":"Date"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,365 - DEBUG - Finished Request
+2024-08-02 10:41:47,366 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.75/text {}
+2024-08-02 10:41:47,393 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.75/text HTTP/11" 200 0
+2024-08-02 10:41:47,394 - DEBUG - Remote response: status=200 | data={"value":"Open"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,394 - DEBUG - Finished Request
+2024-08-02 10:41:47,395 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.76/text {}
+2024-08-02 10:41:47,433 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.76/text HTTP/11" 200 0
+2024-08-02 10:41:47,433 - DEBUG - Remote response: status=200 | data={"value":"High"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,434 - DEBUG - Finished Request
+2024-08-02 10:41:47,434 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.77/text {}
+2024-08-02 10:41:47,479 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.77/text HTTP/11" 200 0
+2024-08-02 10:41:47,479 - DEBUG - Remote response: status=200 | data={"value":"Low"} | headers=HTTPHeaderDict({'Content-Length': '15', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,480 - DEBUG - Finished Request
+2024-08-02 10:41:47,480 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.78/text {}
+2024-08-02 10:41:47,516 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.78/text HTTP/11" 200 0
+2024-08-02 10:41:47,517 - DEBUG - Remote response: status=200 | data={"value":"Close"} | headers=HTTPHeaderDict({'Content-Length': '17', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,517 - DEBUG - Finished Request
+2024-08-02 10:41:47,518 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.79/text {}
+2024-08-02 10:41:47,552 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.79/text HTTP/11" 200 0
+2024-08-02 10:41:47,553 - DEBUG - Remote response: status=200 | data={"value":"Adj Close"} | headers=HTTPHeaderDict({'Content-Length': '21', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,553 - DEBUG - Finished Request
+2024-08-02 10:41:47,553 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.80/text {}
+2024-08-02 10:41:47,583 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.80/text HTTP/11" 200 0
+2024-08-02 10:41:47,584 - DEBUG - Remote response: status=200 | data={"value":"Volume"} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,584 - DEBUG - Finished Request
+2024-08-02 10:41:47,585 - DEBUG - POST http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.68/elements {'using': 'tag name', 'value': 'td'}
+2024-08-02 10:41:47,630 - DEBUG - http://localhost:59343 "POST /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.68/elements HTTP/11" 200 0
+2024-08-02 10:41:47,630 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.81"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.82"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.83"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.84"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.85"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.86"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.87"}]} | headers=HTTPHeaderDict({'Content-Length': '830', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,630 - DEBUG - Finished Request
+2024-08-02 10:41:47,630 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.81/text {}
+2024-08-02 10:41:47,665 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.81/text HTTP/11" 200 0
+2024-08-02 10:41:47,665 - DEBUG - Remote response: status=200 | data={"value":"Jul 31, 2024"} | headers=HTTPHeaderDict({'Content-Length': '24', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,666 - DEBUG - Finished Request
+2024-08-02 10:41:47,666 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.82/text {}
+2024-08-02 10:41:47,689 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.82/text HTTP/11" 200 0
+2024-08-02 10:41:47,690 - DEBUG - Remote response: status=200 | data={"value":"22.8003"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,690 - DEBUG - Finished Request
+2024-08-02 10:41:47,690 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.83/text {}
+2024-08-02 10:41:47,708 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.83/text HTTP/11" 200 0
+2024-08-02 10:41:47,709 - DEBUG - Remote response: status=200 | data={"value":"22.8003"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,709 - DEBUG - Finished Request
+2024-08-02 10:41:47,709 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.84/text {}
+2024-08-02 10:41:47,727 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.84/text HTTP/11" 200 0
+2024-08-02 10:41:47,728 - DEBUG - Remote response: status=200 | data={"value":"22.7833"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,728 - DEBUG - Finished Request
+2024-08-02 10:41:47,728 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.85/text {}
+2024-08-02 10:41:47,747 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.85/text HTTP/11" 200 0
+2024-08-02 10:41:47,747 - DEBUG - Remote response: status=200 | data={"value":"22.7924"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,747 - DEBUG - Finished Request
+2024-08-02 10:41:47,748 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.86/text {}
+2024-08-02 10:41:47,772 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.86/text HTTP/11" 200 0
+2024-08-02 10:41:47,772 - DEBUG - Remote response: status=200 | data={"value":"22.7924"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,773 - DEBUG - Finished Request
+2024-08-02 10:41:47,773 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.87/text {}
+2024-08-02 10:41:47,797 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.87/text HTTP/11" 200 0
+2024-08-02 10:41:47,797 - DEBUG - Remote response: status=200 | data={"value":"-"} | headers=HTTPHeaderDict({'Content-Length': '13', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,797 - DEBUG - Finished Request
+2024-08-02 10:41:47,797 - DEBUG - POST http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.69/elements {'using': 'tag name', 'value': 'td'}
+2024-08-02 10:41:47,822 - DEBUG - http://localhost:59343 "POST /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.69/elements HTTP/11" 200 0
+2024-08-02 10:41:47,822 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.88"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.89"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.90"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.91"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.92"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.93"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.94"}]} | headers=HTTPHeaderDict({'Content-Length': '830', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,822 - DEBUG - Finished Request
+2024-08-02 10:41:47,823 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.88/text {}
+2024-08-02 10:41:47,846 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.88/text HTTP/11" 200 0
+2024-08-02 10:41:47,846 - DEBUG - Remote response: status=200 | data={"value":"Jul 30, 2024"} | headers=HTTPHeaderDict({'Content-Length': '24', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,846 - DEBUG - Finished Request
+2024-08-02 10:41:47,847 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.89/text {}
+2024-08-02 10:41:47,864 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.89/text HTTP/11" 200 0
+2024-08-02 10:41:47,864 - DEBUG - Remote response: status=200 | data={"value":"22.7933"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,864 - DEBUG - Finished Request
+2024-08-02 10:41:47,865 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.90/text {}
+2024-08-02 10:41:47,899 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.90/text HTTP/11" 200 0
+2024-08-02 10:41:47,901 - DEBUG - Remote response: status=200 | data={"value":"22.7962"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,901 - DEBUG - Finished Request
+2024-08-02 10:41:47,901 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.91/text {}
+2024-08-02 10:41:47,925 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.91/text HTTP/11" 200 0
+2024-08-02 10:41:47,926 - DEBUG - Remote response: status=200 | data={"value":"22.7891"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,926 - DEBUG - Finished Request
+2024-08-02 10:41:47,927 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.92/text {}
+2024-08-02 10:41:47,948 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.92/text HTTP/11" 200 0
+2024-08-02 10:41:47,948 - DEBUG - Remote response: status=200 | data={"value":"22.7976"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,948 - DEBUG - Finished Request
+2024-08-02 10:41:47,948 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.93/text {}
+2024-08-02 10:41:47,971 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.93/text HTTP/11" 200 0
+2024-08-02 10:41:47,972 - DEBUG - Remote response: status=200 | data={"value":"22.7976"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:47,973 - DEBUG - Finished Request
+2024-08-02 10:41:47,973 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.94/text {}
+2024-08-02 10:41:48,000 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.94/text HTTP/11" 200 0
+2024-08-02 10:41:48,000 - DEBUG - Remote response: status=200 | data={"value":"-"} | headers=HTTPHeaderDict({'Content-Length': '13', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,001 - DEBUG - Finished Request
+2024-08-02 10:41:48,001 - DEBUG - POST http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.70/elements {'using': 'tag name', 'value': 'td'}
+2024-08-02 10:41:48,025 - DEBUG - http://localhost:59343 "POST /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.70/elements HTTP/11" 200 0
+2024-08-02 10:41:48,025 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.96"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.97"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.98"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.99"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.100"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.101"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.102"}]} | headers=HTTPHeaderDict({'Content-Length': '833', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,025 - DEBUG - Finished Request
+2024-08-02 10:41:48,026 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.96/text {}
+2024-08-02 10:41:48,048 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.96/text HTTP/11" 200 0
+2024-08-02 10:41:48,049 - DEBUG - Remote response: status=200 | data={"value":"Jul 29, 2024"} | headers=HTTPHeaderDict({'Content-Length': '24', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,049 - DEBUG - Finished Request
+2024-08-02 10:41:48,049 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.97/text {}
+2024-08-02 10:41:48,076 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.97/text HTTP/11" 200 0
+2024-08-02 10:41:48,077 - DEBUG - Remote response: status=200 | data={"value":"22.7866"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,077 - DEBUG - Finished Request
+2024-08-02 10:41:48,078 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.98/text {}
+2024-08-02 10:41:48,120 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.98/text HTTP/11" 200 0
+2024-08-02 10:41:48,120 - DEBUG - Remote response: status=200 | data={"value":"22.7976"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,120 - DEBUG - Finished Request
+2024-08-02 10:41:48,121 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.99/text {}
+2024-08-02 10:41:48,149 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.99/text HTTP/11" 200 0
+2024-08-02 10:41:48,149 - DEBUG - Remote response: status=200 | data={"value":"22.7866"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,150 - DEBUG - Finished Request
+2024-08-02 10:41:48,151 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.100/text {}
+2024-08-02 10:41:48,170 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.100/text HTTP/11" 200 0
+2024-08-02 10:41:48,170 - DEBUG - Remote response: status=200 | data={"value":"22.7884"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,170 - DEBUG - Finished Request
+2024-08-02 10:41:48,171 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.101/text {}
+2024-08-02 10:41:48,190 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.101/text HTTP/11" 200 0
+2024-08-02 10:41:48,190 - DEBUG - Remote response: status=200 | data={"value":"22.7884"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,191 - DEBUG - Finished Request
+2024-08-02 10:41:48,191 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.102/text {}
+2024-08-02 10:41:48,208 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.102/text HTTP/11" 200 0
+2024-08-02 10:41:48,208 - DEBUG - Remote response: status=200 | data={"value":"-"} | headers=HTTPHeaderDict({'Content-Length': '13', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,208 - DEBUG - Finished Request
+2024-08-02 10:41:48,208 - DEBUG - POST http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.71/elements {'using': 'tag name', 'value': 'td'}
+2024-08-02 10:41:48,224 - DEBUG - http://localhost:59343 "POST /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.71/elements HTTP/11" 200 0
+2024-08-02 10:41:48,224 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.103"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.104"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.105"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.106"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.37"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.107"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.108"}]} | headers=HTTPHeaderDict({'Content-Length': '836', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,225 - DEBUG - Finished Request
+2024-08-02 10:41:48,225 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.103/text {}
+2024-08-02 10:41:48,242 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.103/text HTTP/11" 200 0
+2024-08-02 10:41:48,242 - DEBUG - Remote response: status=200 | data={"value":"Jul 26, 2024"} | headers=HTTPHeaderDict({'Content-Length': '24', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,242 - DEBUG - Finished Request
+2024-08-02 10:41:48,242 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.104/text {}
+2024-08-02 10:41:48,260 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.104/text HTTP/11" 200 0
+2024-08-02 10:41:48,260 - DEBUG - Remote response: status=200 | data={"value":"22.7957"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,260 - DEBUG - Finished Request
+2024-08-02 10:41:48,260 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.105/text {}
+2024-08-02 10:41:48,279 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.105/text HTTP/11" 200 0
+2024-08-02 10:41:48,279 - DEBUG - Remote response: status=200 | data={"value":"22.7964"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,279 - DEBUG - Finished Request
+2024-08-02 10:41:48,279 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.106/text {}
+2024-08-02 10:41:48,296 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.106/text HTTP/11" 200 0
+2024-08-02 10:41:48,296 - DEBUG - Remote response: status=200 | data={"value":"22.7907"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,296 - DEBUG - Finished Request
+2024-08-02 10:41:48,297 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.37/text {}
+2024-08-02 10:41:48,328 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.37/text HTTP/11" 200 0
+2024-08-02 10:41:48,328 - DEBUG - Remote response: status=200 | data={"value":"22.7971"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,328 - DEBUG - Finished Request
+2024-08-02 10:41:48,329 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.107/text {}
+2024-08-02 10:41:48,352 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.107/text HTTP/11" 200 0
+2024-08-02 10:41:48,353 - DEBUG - Remote response: status=200 | data={"value":"22.7971"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,353 - DEBUG - Finished Request
+2024-08-02 10:41:48,353 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.108/text {}
+2024-08-02 10:41:48,373 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.108/text HTTP/11" 200 0
+2024-08-02 10:41:48,373 - DEBUG - Remote response: status=200 | data={"value":"-"} | headers=HTTPHeaderDict({'Content-Length': '13', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,373 - DEBUG - Finished Request
+2024-08-02 10:41:48,374 - DEBUG - POST http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.72/elements {'using': 'tag name', 'value': 'td'}
+2024-08-02 10:41:48,392 - DEBUG - http://localhost:59343 "POST /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.72/elements HTTP/11" 200 0
+2024-08-02 10:41:48,392 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.109"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.110"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.111"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.112"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.113"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.114"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.115"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,392 - DEBUG - Finished Request
+2024-08-02 10:41:48,393 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.109/text {}
+2024-08-02 10:41:48,413 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.109/text HTTP/11" 200 0
+2024-08-02 10:41:48,413 - DEBUG - Remote response: status=200 | data={"value":"Jul 25, 2024"} | headers=HTTPHeaderDict({'Content-Length': '24', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,413 - DEBUG - Finished Request
+2024-08-02 10:41:48,413 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.110/text {}
+2024-08-02 10:41:48,432 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.110/text HTTP/11" 200 0
+2024-08-02 10:41:48,433 - DEBUG - Remote response: status=200 | data={"value":"22.7954"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,433 - DEBUG - Finished Request
+2024-08-02 10:41:48,433 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.111/text {}
+2024-08-02 10:41:48,455 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.111/text HTTP/11" 200 0
+2024-08-02 10:41:48,455 - DEBUG - Remote response: status=200 | data={"value":"22.8129"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,455 - DEBUG - Finished Request
+2024-08-02 10:41:48,456 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.112/text {}
+2024-08-02 10:41:48,478 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.112/text HTTP/11" 200 0
+2024-08-02 10:41:48,478 - DEBUG - Remote response: status=200 | data={"value":"22.7789"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,478 - DEBUG - Finished Request
+2024-08-02 10:41:48,479 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.113/text {}
+2024-08-02 10:41:48,497 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.113/text HTTP/11" 200 0
+2024-08-02 10:41:48,497 - DEBUG - Remote response: status=200 | data={"value":"22.7939"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,498 - DEBUG - Finished Request
+2024-08-02 10:41:48,498 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.114/text {}
+2024-08-02 10:41:48,519 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.114/text HTTP/11" 200 0
+2024-08-02 10:41:48,519 - DEBUG - Remote response: status=200 | data={"value":"22.7939"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,519 - DEBUG - Finished Request
+2024-08-02 10:41:48,520 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.115/text {}
+2024-08-02 10:41:48,543 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.115/text HTTP/11" 200 0
+2024-08-02 10:41:48,543 - DEBUG - Remote response: status=200 | data={"value":"-"} | headers=HTTPHeaderDict({'Content-Length': '13', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,543 - DEBUG - Finished Request
+2024-08-02 10:41:48,544 - DEBUG - POST http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.73/elements {'using': 'tag name', 'value': 'td'}
+2024-08-02 10:41:48,562 - DEBUG - http://localhost:59343 "POST /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.73/elements HTTP/11" 200 0
+2024-08-02 10:41:48,562 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.116"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.117"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.118"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.119"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.120"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.121"},{"element-6066-11e4-a52e-4f735466cecf":"f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.122"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,562 - DEBUG - Finished Request
+2024-08-02 10:41:48,563 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.116/text {}
+2024-08-02 10:41:48,583 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.116/text HTTP/11" 200 0
+2024-08-02 10:41:48,583 - DEBUG - Remote response: status=200 | data={"value":"Jul 24, 2024"} | headers=HTTPHeaderDict({'Content-Length': '24', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,583 - DEBUG - Finished Request
+2024-08-02 10:41:48,584 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.117/text {}
+2024-08-02 10:41:48,627 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.117/text HTTP/11" 200 0
+2024-08-02 10:41:48,628 - DEBUG - Remote response: status=200 | data={"value":"22.7868"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,628 - DEBUG - Finished Request
+2024-08-02 10:41:48,628 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.118/text {}
+2024-08-02 10:41:48,646 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.118/text HTTP/11" 200 0
+2024-08-02 10:41:48,647 - DEBUG - Remote response: status=200 | data={"value":"22.7922"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,648 - DEBUG - Finished Request
+2024-08-02 10:41:48,648 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.119/text {}
+2024-08-02 10:41:48,668 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.119/text HTTP/11" 200 0
+2024-08-02 10:41:48,668 - DEBUG - Remote response: status=200 | data={"value":"22.7849"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,668 - DEBUG - Finished Request
+2024-08-02 10:41:48,668 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.120/text {}
+2024-08-02 10:41:48,684 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.120/text HTTP/11" 200 0
+2024-08-02 10:41:48,684 - DEBUG - Remote response: status=200 | data={"value":"22.7817"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,684 - DEBUG - Finished Request
+2024-08-02 10:41:48,684 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.121/text {}
+2024-08-02 10:41:48,700 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.121/text HTTP/11" 200 0
+2024-08-02 10:41:48,700 - DEBUG - Remote response: status=200 | data={"value":"22.7817"} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,700 - DEBUG - Finished Request
+2024-08-02 10:41:48,700 - DEBUG - GET http://localhost:59343/session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.122/text {}
+2024-08-02 10:41:48,718 - DEBUG - http://localhost:59343 "GET /session/062972a1215e906917ba14d454b5a028/element/f.5DBFB930C357F18C606859803AEE325B.d.336D298CFFE9F13C7720685B94DAE31C.e.122/text HTTP/11" 200 0
+2024-08-02 10:41:48,718 - DEBUG - Remote response: status=200 | data={"value":"-"} | headers=HTTPHeaderDict({'Content-Length': '13', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:48,718 - DEBUG - Finished Request
+2024-08-02 10:41:48,719 - DEBUG - DELETE http://localhost:59343/session/062972a1215e906917ba14d454b5a028 {}
+2024-08-02 10:41:49,091 - DEBUG - http://localhost:59343 "DELETE /session/062972a1215e906917ba14d454b5a028 HTTP/11" 200 0
+2024-08-02 10:41:49,091 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:49,092 - DEBUG - Finished Request
+2024-08-02 10:41:52,390 - INFO - Data scraped successfully for AEDINR=X from 2024-07-25 to 2024-08-01.
+2024-08-02 10:41:56,583 - INFO - Table AED_INR created or exists.
+2024-08-02 10:41:56,697 - INFO - Data stored in database successfully for AED_INR.
+2024-08-02 10:41:56,698 - INFO - Scheduled scraping job completed.
+2024-08-02 10:41:56,699 - INFO - Job "scheduled_scrape (trigger: interval[0:03:00], next run at: 2024-08-02 10:44:14 IST)" executed successfully
+2024-08-02 10:41:57,727 - DEBUG - http://localhost:59336 "POST /session/4355e5140acbcb4cef92a63c7185267d/url HTTP/11" 200 0
+2024-08-02 10:41:57,728 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:41:57,728 - DEBUG - Finished Request
+2024-08-02 10:42:02,730 - DEBUG - POST http://localhost:59336/session/4355e5140acbcb4cef92a63c7185267d/element {'using': 'css selector', 'value': '.table'}
+2024-08-02 10:42:02,767 - DEBUG - http://localhost:59336 "POST /session/4355e5140acbcb4cef92a63c7185267d/element HTTP/11" 404 0
+2024-08-02 10:42:02,768 - DEBUG - Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".table\"}\n  (Session info: chrome=127.0.6533.89)","stacktrace":"\tGetHandleVerifier [0x00007FF6E4259632+30946]\n\t(No symbol) [0x00007FF6E420E3C9]\n\t(No symbol) [0x00007FF6E4106FDA]\n\t(No symbol) [0x00007FF6E415822C]\n\t(No symbol) [0x00007FF6E415850C]\n\t(No symbol) [0x00007FF6E419DCB7]\n\t(No symbol) [0x00007FF6E417CAAF]\n\t(No symbol) [0x00007FF6E419B041]\n\t(No symbol) [0x00007FF6E417C813]\n\t(No symbol) [0x00007FF6E414A6E5]\n\t(No symbol) [0x00007FF6E414B021]\n\tGetHandleVerifier [0x00007FF6E438F83D+1301229]\n\tGetHandleVerifier [0x00007FF6E439BDB7+1351783]\n\tGetHandleVerifier [0x00007FF6E4392A03+1313971]\n\tGetHandleVerifier [0x00007FF6E428DD06+245686]\n\t(No symbol) [0x00007FF6E421758F]\n\t(No symbol) [0x00007FF6E4213804]\n\t(No symbol) [0x00007FF6E4213992]\n\t(No symbol) [0x00007FF6E420A3EF]\n\tBaseThreadInitThunk [0x00007FFD35A2257D+29]\n\tRtlUserThreadStart [0x00007FFD3758AF28+40]\n"}} | headers=HTTPHeaderDict({'Content-Length': '1046', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-02 10:42:02,768 - DEBUG - Finished Request
+2024-08-02 10:42:02,775 - ERROR - Error scraping data: Message: no such element: Unable to locate element: {"method":"css selector","selector":".table"}
+  (Session info: chrome=127.0.6533.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E4259632+30946]
+	(No symbol) [0x00007FF6E420E3C9]
+	(No symbol) [0x00007FF6E4106FDA]
+	(No symbol) [0x00007FF6E415822C]
+	(No symbol) [0x00007FF6E415850C]
+	(No symbol) [0x00007FF6E419DCB7]
+	(No symbol) [0x00007FF6E417CAAF]
+	(No symbol) [0x00007FF6E419B041]
+	(No symbol) [0x00007FF6E417C813]
+	(No symbol) [0x00007FF6E414A6E5]
+	(No symbol) [0x00007FF6E414B021]
+	GetHandleVerifier [0x00007FF6E438F83D+1301229]
+	GetHandleVerifier [0x00007FF6E439BDB7+1351783]
+	GetHandleVerifier [0x00007FF6E4392A03+1313971]
+	GetHandleVerifier [0x00007FF6E428DD06+245686]
+	(No symbol) [0x00007FF6E421758F]
+	(No symbol) [0x00007FF6E4213804]
+	(No symbol) [0x00007FF6E4213992]
+	(No symbol) [0x00007FF6E420A3EF]
+	BaseThreadInitThunk [0x00007FFD35A2257D+29]
+	RtlUserThreadStart [0x00007FFD3758AF28+40]
+
+2024-08-02 10:42:05,406 - WARNING - Failed to scrape data for AED_INR from 2024-07-25 to 2024-08-01.
+2024-08-02 10:42:05,407 - INFO - Scheduled scraping job completed.
+2024-08-02 10:42:05,407 - INFO - Job "scheduled_scrape (trigger: interval[0:03:00], next run at: 2024-08-02 10:44:12 IST)" executed successfully
+2024-08-02 10:42:28,773 - INFO - Scheduler has been shut down
+2024-08-02 10:42:28,773 - DEBUG - Looking for jobs to run
+2024-08-02 10:42:28,773 - DEBUG - No jobs; waiting until a job is added
+2024-08-02 10:42:29,264 - INFO - Scheduler has been shut down
+2024-08-02 10:42:29,264 - DEBUG - Looking for jobs to run
+2024-08-02 10:42:29,265 - DEBUG - No jobs; waiting until a job is added
