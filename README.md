@@ -83,21 +83,42 @@ LOG_FILE_PATH = 'logs/app.log'
 
 ## Running the Application
 
-1. **Initialize the Database**
+**Start the Flask Application**
 
    ```sh
-   python -c "from app.database import initialize_db; initialize_db()"
+   python run.py
    ```
 
-2. **Start the Flask Application**
+## Scheduled Data Scraping
 
-   ```sh
-   flask run
-   ```
+The application uses APScheduler for periodic scraping of forex data. The scheduler is initialized when you start the Flask application.
 
-## Setting Up Periodic Scraping
+### Scheduler Periods
 
-The application uses APScheduler for periodic scraping. The scheduler is initialized when you start the Flask application. The scraping intervals are defined in `app/scheduler.py`.
+The following schedules are set up for data scraping:
+
+1. **Weekly Scrape**: Runs every week
+   - Scrapes data for the last 7 days (1W)
+2. **Monthly Scrape**: Runs every 30 days
+   - Scrapes data for the last 30 days (1M)
+3. **Quarterly Scrape**: Runs every 13 weeks
+   - Scrapes data for the last 90 days (3M)
+4. **Semi-Annual Scrape**: Runs every 26 weeks
+   - Scrapes data for the last 180 days (6M)
+5. **Annual Scrape**: Runs every 52 weeks
+   - Scrapes data for the last 365 days (1Y)
+6. **Minute Scrape**: Runs every 3 minutes (for testing purposes)
+   - Scrapes data for the last 7 days (1W)
+
+### Time Interval Meanings
+
+- **1W**: 1 Week (7 days)
+- **1M**: 1 Month (30 days)
+- **3M**: 3 Months (90 days)
+- **6M**: 6 Months (180 days)
+- **1Y**: 1 Year (365 days)
+
+These intervals are used both in the scheduled scraping jobs and can be used as parameters in API requests to specify the period for which data is required.
 
 ## API Endpoints
 
