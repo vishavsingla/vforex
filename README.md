@@ -77,7 +77,7 @@ Create a file named `config.py` inside the `app/` directory with the following c
 
 ```python
 CHROMEDRIVER_PATH = 'path_to_your_chromedriver'
-DATABASE_PATH = 'historical_data.db'
+DATABASE_PATH = 'forex_data.db'
 LOG_FILE_PATH = 'logs/app.log'
 ```
 
